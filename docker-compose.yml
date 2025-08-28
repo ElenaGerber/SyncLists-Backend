@@ -1,0 +1,6 @@
+﻿services:
+  synclists-backend:
+    image: synclists-backend
+    build:
+      context: .
+      dockerfile: SyncLists-Backend/Dockerfile

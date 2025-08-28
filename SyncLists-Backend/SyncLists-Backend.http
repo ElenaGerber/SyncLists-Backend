@@ -1,0 +1,6 @@
+@synclists_backend_HostAddress = http://localhost:5182
+
+GET {{synclists_backend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
