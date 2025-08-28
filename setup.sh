@@ -1,4 +1,4 @@
-#!/bin/bash
+docker#!/bin/bash
 
 echo "Checking for Docker..."
 if ! command -v docker &> /dev/null
@@ -49,4 +49,4 @@ EOL
 echo ".env file created."
 
 echo "Starting backend..."
-docker compose up -d --build
+docker-compose up -d --build

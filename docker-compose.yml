@@ -1,9 +1,9 @@
 ﻿services:
-  synclists:
+  app:
     image: synclists-backend
     build:
       context: .
-      dockerfile: synclists-backend/Dockerfile
+      dockerfile: SyncLists-Backend/Dockerfile
     ports:
       - "8080:8080"
     depends_on:
